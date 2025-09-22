@@ -17,6 +17,16 @@ function App() {
 
   return (
     <>
+  <div className=' max-w-[1200px] mx-auto flex justify-between items-center'>
+    <h1 className='font-bold text-2xl'>
+      Available Players
+    </h1>
+    <div className='font-bold'>
+      <button className=' bg-[#E7FE29] py-3 px-4 border-1 border-gray-400 rounded-l-2xl border-r-0'>Available</button>
+      <button className='py-3 px-4 border-1 border-gray-400 rounded-r-2xl border-l-0'>Selected <span>{0}</span></button>
+    </div>
+  </div>
+
     <div className="navbar max-w-[1200px] mx-auto ">
   <div className="flex-1">
     <a className=" text-xl">
