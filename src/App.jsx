@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar/Navbar'
 import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers'
 import { Suspense, useState } from 'react'
 
+  import { ToastContainer } from 'react-toastify';
+
 
 const fetchPlayers= async () =>{
   const res=await fetch("/player.json")
@@ -20,8 +22,10 @@ function App() {
   
   
  const removePlayers= (p) =>{
-  console.log(p);
-
+  const filterData = purchasePlayers.filter(ply => ply["player-name"] !==p["player-name"])
+  console.log(filterData);
+  setPurchasePlayers(filterData)
+  setAvailableBalance(availableBalace +parseInt( p.price.replace("USD", "").replace(/,/g, "").trim()))
  }
 
   return (
@@ -49,7 +53,7 @@ function App() {
   }
 
     
-
+ <ToastContainer></ToastContainer>
      
      
     </>
