@@ -37,7 +37,7 @@ function App() {
 
   {
     toggle === true?  <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-       <AvailablePlayers setAvailableBalance={setAvailableBalance} playerPromise={playerPromise}></AvailablePlayers>
+       <AvailablePlayers availableBalace={availableBalace} setAvailableBalance={setAvailableBalance} playerPromise={playerPromise}></AvailablePlayers>
      </Suspense> : <SelectedPlayers></SelectedPlayers>
   }
 

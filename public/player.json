@@ -7,7 +7,7 @@
     "rating": 8.7,
     "batting-style": "Left-handed",
     "bowling-style": "Right-arm off-break",
-    "price": "৳80 Lakh"
+    "price": "8000000"
   },
   {
     "player-image": "https://i.ibb.co.com/xvGP5VR/sakibal.webp",
@@ -17,7 +17,7 @@
     "rating": 9.5,
     "batting-style": "Left-handed",
     "bowling-style": "Left-arm orthodox",
-    "price": "৳80 Lakh"
+    "price": "8000000"
   },
   {
     "player-image": "https://i.ibb.co.com/k6hfm75D/musfikurrahaman.webp",
@@ -27,7 +27,7 @@
     "rating": 8.5,
     "batting-style": "Right-handed",
     "bowling-style": "N/A",
-    "price": "৳80 Lakh"
+    "price": "8000000"
   },
   {
     "player-image": "https://i.ibb.co.com/Y5BMc1B/litton.webp",
@@ -37,7 +37,7 @@
     "rating": 8.9,
     "batting-style": "Right-handed",
     "bowling-style": "N/A",
-    "price": "৳80 Lakh"
+    "price": "8000000"
   },
   {
     "player-image": "https://i.ibb.co.com/Rkb9sQbh/askin.webp",
@@ -47,7 +47,7 @@
     "rating": 8.8,
     "batting-style": "Left-handed",
     "bowling-style": "Right-arm fast",
-    "price": "৳80 Lakh"
+    "price": "7500000"
   },
   {
     "player-image": "https://i.ibb.co.com/LdtX6cTN/mehady.webp",
@@ -57,7 +57,7 @@
     "rating": 8.6,
     "batting-style": "Right-handed",
     "bowling-style": "Right-arm off-break",
-    "price": "৳80 Lakh"
+    "price": "8000000"
   },
   {
     "player-image": "https://i.ibb.co.com/Vc6pp15t/mutafizur.webp",
@@ -67,7 +67,7 @@
     "rating": 8.4,
     "batting-style": "Left-handed",
     "bowling-style": "Left-arm medium-fast",
-    "price": "৳80 Lakh"
+    "price": "8000000"
   },
   {
     "player-image": "https://i.ibb.co.com/xtwJs0Fb/towhid.webp",
@@ -77,7 +77,7 @@
     "rating": 8.0,
     "batting-style": "Right-handed",
     "bowling-style": "Right-arm off-break",
-    "price": "৳50 Lakh"
+    "price": "5000000"
   },
   {
     "player-image": "https://i.ibb.co.com/Q73ZB649/shoriful.webp",
@@ -87,7 +87,7 @@
     "rating": 7.8,
     "batting-style": "Left-handed",
     "bowling-style": "Left-arm fast-medium",
-    "price": "৳50 Lakh"
+    "price": "500000"
   },
   {
     "player-image": "https://i.ibb.co.com/xSGkq5k8/pooran.webp",
@@ -97,7 +97,7 @@
     "rating": 9.1,
     "batting-style": "Left-handed",
     "bowling-style": "N/A",
-    "price": "US$80,000"
+    "price": "80000"
   },
   {
     "player-image": "https://i.ibb.co.com/NdQF4zb2/russell.webp",
@@ -107,7 +107,7 @@
     "rating": 9.3,
     "batting-style": "Right-handed",
     "bowling-style": "Right-arm fast",
-    "price": "US$80,000"
+    "price": "7500000"
   },
   {
     "player-image": "https://i.ibb.co.com/vvf41Mwd/Imrul-Kayes.jpg",
@@ -117,6 +117,6 @@
     "rating": 7.5,
     "batting-style": "Left-handed",
     "bowling-style": "N/A",
-    "price": "৳50 Lakh"
+    "price": "5000000"
   }
 ]

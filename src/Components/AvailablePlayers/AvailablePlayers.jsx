@@ -3,7 +3,7 @@ import PlayerCard from "../Player/PlayerCard";
 
 
 
-const AvailablePlayers = ({ playerPromise,setAvailableBalance }) => {
+const AvailablePlayers = ({ playerPromise,setAvailableBalance,availableBalace }) => {
 
   const playerData = use(playerPromise);
 
@@ -11,7 +11,7 @@ const AvailablePlayers = ({ playerPromise,setAvailableBalance }) => {
   return (
     <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-3">
      {
-      playerData.map(player=> <PlayerCard setAvailableBalance={setAvailableBalance} player={player}></PlayerCard>
+      playerData.map(player=> <PlayerCard availableBalace={availableBalace} setAvailableBalance={setAvailableBalance} player={player}></PlayerCard>
       
 
       )
