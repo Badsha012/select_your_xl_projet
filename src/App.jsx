@@ -4,7 +4,7 @@ import navImg from "./assets/logo.png"
 import dollarImg from "./assets/coin.jpg"
 import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 
 
 const fetchPlayers= async () =>{
@@ -12,6 +12,8 @@ const fetchPlayers= async () =>{
   return  res.json()
 }
 function App() {
+
+  const [toggle,setToggle] =useState(true)
   const playerPromise=fetchPlayers()
 
 
@@ -22,8 +24,8 @@ function App() {
       Available Players
     </h1>
     <div className='font-bold'>
-      <button className=' bg-[#E7FE29] py-3 px-4 border-1 border-gray-400 rounded-l-2xl border-r-0'>Available</button>
-      <button className='py-3 px-4 border-1 border-gray-400 rounded-r-2xl border-l-0'>Selected <span>{0}</span></button>
+      <button onClick={()=>setToggle(true)} className={`  py-3 px-4 border-1 border-gray-400 rounded-l-2xl border-r-0 ${toggle===true? "bg-[#E7FE29]" : " "}`}>Available</button>
+      <button onClick={()=>setToggle(false)} className={`py-3 px-4 border-1 border-gray-400 rounded-r-2xl border-l-0 ${toggle===false?"bg-[#E7FE29]" : " "}`}>Selected <span>{0}</span></button>
     </div>
   </div>
 
@@ -39,12 +41,15 @@ function App() {
     <img className='w-[30pxpx] h-[30px] ' src={dollarImg} alt="" srcset="" />
   </div>
 </div>
-
-     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+  {
+    toggle === true?  <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
        <AvailablePlayers playerPromise={playerPromise}></AvailablePlayers>
-     </Suspense>
+     </Suspense> : <SelectedPlayers></SelectedPlayers>
+  }
 
-      <SelectedPlayers></SelectedPlayers>
+    
+
+     
      
     </>
   )
