@@ -5,6 +5,7 @@ import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
 import Navbar from './Components/Navbar/Navbar'
 import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers'
 import { Suspense, useState } from 'react'
+import bannerImg from "./assets/bg-shadow.png"
 
   import { ToastContainer } from 'react-toastify';
 
@@ -31,6 +32,25 @@ function App() {
   return (
     <>
     <Navbar availableBalace={availableBalace}></Navbar>
+        <div
+      className="max-w-[1200px] mx-auto flex flex-col items-center justify-center text-center text-white"
+      style={{
+          backgroundImage: `url(${bannerImg})`,
+         backgroundSize: "cover",
+         backgroundPosition: "center",
+         
+        
+      }}
+    >
+      <img src="https://i.ibb.co.com/m56pHPXG/banner-main.png" alt="" srcset="" />
+      <h1 className="text-3xl text-black md:text-4xl font-extrabold mt-4">
+        Assemble Your Ultimate Dream 11 Cricket Team
+      </h1>
+      <p className="mt-2 text-black">Beyond Boundaries Beyond Limits</p>
+      <button className="mt-5 bg-yellow-400 text-black font-bold px-6 py-2 rounded-lg shadow-lg hover:bg-yellow-500">
+        Claim Free Credit
+      </button>
+    </div>
 
   
   <div className=' max-w-[1200px] mx-auto flex justify-between items-center'>
