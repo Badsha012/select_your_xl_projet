@@ -1,0 +1,122 @@
+[
+  {
+    "player-image": "https://i.ibb.co.com/Kj3JTK4p/tamim.jpg",
+    "player-name": "Tamim Iqbal",
+    "player-country": "Bangladesh",
+    "playing-role": "Batsman",
+    "rating": 8.7,
+    "batting-style": "Left-handed",
+    "bowling-style": "Right-arm off-break",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/xvGP5VR/sakibal.webp",
+    "player-name": "Shakib Al Hasan",
+    "player-country": "Bangladesh",
+    "playing-role": "All-rounder",
+    "rating": 9.5,
+    "batting-style": "Left-handed",
+    "bowling-style": "Left-arm orthodox",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/k6hfm75D/musfikurrahaman.webp",
+    "player-name": "Mushfiqur Rahim",
+    "player-country": "Bangladesh",
+    "playing-role": "Wicketkeeper/Batsman",
+    "rating": 8.5,
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/Y5BMc1B/litton.webp",
+    "player-name": "Litton Das",
+    "player-country": "Bangladesh",
+    "playing-role": "Batsman",
+    "rating": 8.9,
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/Rkb9sQbh/askin.webp",
+    "player-name": "Taskin Ahmed",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "rating": 8.8,
+    "batting-style": "Left-handed",
+    "bowling-style": "Right-arm fast",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/LdtX6cTN/mehady.webp",
+    "player-name": "Mehidy Hasan Miraz",
+    "player-country": "Bangladesh",
+    "playing-role": "All-rounder",
+    "rating": 8.6,
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm off-break",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/Vc6pp15t/mutafizur.webp",
+    "player-name": "Mustafizur Rahman",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "rating": 8.4,
+    "batting-style": "Left-handed",
+    "bowling-style": "Left-arm medium-fast",
+    "price": "৳80 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/xtwJs0Fb/towhid.webp",
+    "player-name": "Towhid Hridoy",
+    "player-country": "Bangladesh",
+    "playing-role": "Batsman",
+    "rating": 8.0,
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm off-break",
+    "price": "৳50 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/Q73ZB649/shoriful.webp",
+    "player-name": "Shoriful Islam",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "rating": 7.8,
+    "batting-style": "Left-handed",
+    "bowling-style": "Left-arm fast-medium",
+    "price": "৳50 Lakh"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/xSGkq5k8/pooran.webp",
+    "player-name": "Nicholas Pooran",
+    "player-country": "West Indies",
+    "playing-role": "Wicketkeeper/Batsman",
+    "rating": 9.1,
+    "batting-style": "Left-handed",
+    "bowling-style": "N/A",
+    "price": "US$80,000"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/NdQF4zb2/russell.webp",
+    "player-name": "Andre Russell",
+    "player-country": "West Indies",
+    "playing-role": "All-rounder",
+    "rating": 9.3,
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm fast",
+    "price": "US$80,000"
+  },
+  {
+    "player-image": "https://i.ibb.co.com/vvf41Mwd/Imrul-Kayes.jpg",
+    "player-name": "Imrul Kayes",
+    "player-country": "Bangladesh",
+    "playing-role": "Batsman",
+    "rating": 7.5,
+    "batting-style": "Left-handed",
+    "bowling-style": "N/A",
+    "price": "৳50 Lakh"
+  }
+]

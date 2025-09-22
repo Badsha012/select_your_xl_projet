@@ -1,0 +1,68 @@
+import React, { use } from "react";
+
+import userImg from "../../assets/user1.png"
+
+import userFlag from "../../assets/flag.png"
+
+const AvailablePlayers = ({ playerPromise }) => {
+  const playerData = use(playerPromise);
+  console.log(playerData);
+  return (
+    <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-3">
+     {
+      playerData.map(player=>
+           <div className="card bg-base-100  shadow-sm p-4">
+        <figure>
+          <img
+            src={player["player-image"]}
+            alt="Players" className="w-full h-[300px] object-cover"
+          />
+        </figure>
+        <div className="mt-4">
+         <div className="flex">
+                      <img src={userImg} alt="" srcset="" /><h2 className="card-title ml-2">{player["player-name"]}</h2>
+         </div>
+         <div className="flex justify-between mt-4 border-b-1 pb-2 border-gray-500">
+                <div className="flex items-center ">
+               <img className="w-[20x] h-[20px]" src={userFlag} alt="" srcset="" />
+               <span className="ml-2">{player["player-country"]}</span>
+         </div>
+         <button className="btn">{player["playing-role"]}</button>
+
+         </div>
+
+         <div className="flex justify-between font-bold">
+            <span>Rating</span>
+            <span>{player["rating"]}</span>
+
+         </div>
+          <div className="flex justify-between mt-4">
+            <span className="font-bold">{player["batting-style"]}</span>
+            <span>{player["bowling-style"]}</span>
+
+         </div>
+     
+     
+
+
+
+          <div className="card-actions justify-between mt-4 items-center">
+            <p className="font-bold">Price: {player["price"]}</p>
+            <button className="btn">Choose plyaer</button>
+          </div>
+        </div>
+      </div>
+
+      )
+     }
+
+
+
+
+
+   
+    </div>
+  );
+};
+
+export default AvailablePlayers;
