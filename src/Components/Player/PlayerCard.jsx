@@ -6,8 +6,18 @@ import userFlag from "../../assets/flag.png"
 import { useState } from 'react';
 
 const PlayerCard = ({player,setAvailableBalance,availableBalace}) => {
-    const [isSelectd,setIsSelected]=useState(false)
-
+    const [isSelectd,setIsSelected,purchasePlayers,setPurchasePlayers]=useState(false)
+    
+    const handleSelected= (playerData) =>{
+      const playerPrice=parseInt(playerData.price.split("USD").join("").split(","))
+      if(availableBalace<playerPrice){
+        alert("Not enough coin !!")
+        return 
+      }
+      setIsSelected(true)
+      setAvailableBalance(availableBalace-playerPrice);
+      setPurchasePlayers(...purchasePlayers,playerData)
+    };
     return (
         <div className="card bg-base-100  shadow-sm p-4">
                <figure>
@@ -46,9 +56,9 @@ const PlayerCard = ({player,setAvailableBalance,availableBalace}) => {
        
                  <div className="card-actions justify-between mt-4 items-center">
                    <p className="font-bold">Price: {player["price"]}</p>
-                   <button disabled ={isSelectd} onClick={()=>{setIsSelected(true)
-                    setAvailableBalance(availableBalace -player["price"] )
-                   }} className="btn">{isSelectd===true?"Selected" : "Choose players"}</button>
+                   <button disabled ={isSelectd} onClick={()=> {handleSelected(player)}}
+                
+                    className="btn">{isSelectd===true?"Selected" : "Choose players"}</button>
                  </div>
                </div>
              </div>
