@@ -77,21 +77,25 @@ function App() {
  <ToastContainer></ToastContainer>
 
 
- <div className='max-w-[1200px] mx-auto border-2 border-red-600 bg-[#06091a] items-center text-center text-white'>
 
 
- <div>
-      <img src={footerImg} alt="" className='' srcset="" />
+
+ <div className='max-w-[1200px] mx-auto  bg-[#06091a] items-center text-center text-white '>
+
+
+
+ <div className='flex justify-center py-20'>
+      <img src={footerImg} alt="" className='align-text-top' srcset="" />
 
  </div>
-<div className=' grid grid-cols-3 '>
+<div className=' grid md:grid-cols-3 grid-cols-1 p-10'>
   <div className=''>
-    <h1>About</h1>
-    <p className='space-y-3'>We are a passionate team dedicated to providing the best services to our customers.</p>
+    <h1 className='text-start font-semibold'>About</h1>
+    <p className='text-gray-400 text-start space-x-1 '>We are a passionate team <br></br> dedicated to providing the best<br></br> services to our customers.</p>
   </div>
  <div className=''>
      <h3 className="text-white font-semibold mb-3">Quick Links</h3>
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-gray-500">
             <li><a href="#" className="hover:text-white">Home</a></li>
             <li><a href="#" className="hover:text-white">Services</a></li>
             <li><a href="#" className="hover:text-white">About</a></li>
@@ -119,7 +123,7 @@ function App() {
  </div>
 </div>
 
-<div className='items-center  py-10'>
+<div className='items-center  py-10 text-gray-600 border-1 border-x-amber-300'>
   <p>@2024 Your Company All Rights Reserved.</p>
 </div>
  </div>
